@@ -1,0 +1,9 @@
+.nav{
+    width: 90%;
+    height: 75px;
+    background-color: #EAEAF3;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

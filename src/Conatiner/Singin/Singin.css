@@ -1,0 +1,49 @@
+body{
+    /*background: url('/src/Assat/Images/2.jpg') no-repeat center;*/
+    /*background-size: cover;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
+.singin{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(208 208 208 / 77%);;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 75px;
+}
+
+.line{
+    width: 80%;
+    height: 1px;
+    background: black;
+    margin-top: 25px;
+}
+
+.time{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time>div{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.time>div:nth-child(2){
+    justify-content: flex-end;
+}

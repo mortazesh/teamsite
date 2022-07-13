@@ -1,0 +1,10 @@
+.menu{
+    width: 75%;
+    height: 75px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    text-align: center;
+}
